@@ -1,0 +1,22 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: DevcampPortfolio_development
+  username: 'mateus'
+  password: '123456'
+
+test:
+  <<: *default
+  database: DevcampPortfolio_test
+  username: 'mateus'
+  password: '123456'
+
+production:
+  <<: *default
+  database: DevcampPortfolio_production
+  username: 'mateus'
+  password: '123456'
