@@ -1,0 +1,34 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Rails server",
+      "type": "Ruby",
+      "request": "launch",
+      "program": "${workspaceRoot}/bin/rails",
+      "args": [
+        "server"
+      ]
+    },
+    {
+      "name": "Debug Rails server",
+      "type": "Ruby",
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "useBundler": true,
+      "pathToBundler": "/home/mateus/.rvm/gems/ruby-2.5.0@global/bin/bundle",
+      "pathToRDebugIDE": "/home/mateus/.rvm/gems/ruby-2.5.0@global/gems/ruby-debug-ide-0.7.0",
+      "program": "${workspaceRoot}/bin/rails",
+      "args": [
+        "server",
+        "-b",
+        "127.0.0.1",
+        "-p",
+        "3000"
+      ]
+    }
+  ]
+}
