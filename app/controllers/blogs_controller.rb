@@ -1,5 +1,11 @@
 class BlogsController < ApplicationController
-  before_action :set_blog, only: [:show, :edit, :update, :destroy]
+  before_action :set_blog, only: [
+    :show,
+    :edit,
+    :update,
+    :destroy,
+    :toggle_status
+  ]
 
   def index
     @blogs = Blog.all
@@ -20,9 +26,9 @@ class BlogsController < ApplicationController
 
     respond_to do |format|
       if @blog.save
-        format.html {
+        format.html do
           redirect_to @blog, notice: 'Blog was successfully created.'
-        }
+        end
       else
         format.html { render :new }
       end
@@ -32,9 +38,9 @@ class BlogsController < ApplicationController
   def update
     respond_to do |format|
       if @blog.update(blog_params)
-        format.html {
+        format.html do 
           redirect_to @blog, notice: 'Blog was successfully updated.'
-        }
+        end
       else
         format.html { render :edit }
       end
@@ -44,13 +50,23 @@ class BlogsController < ApplicationController
   def destroy
     @blog.destroy
     respond_to do |format|
-      format.html {
+      format.html do
         redirect_to blogs_url, notice: 'Blog was successfully destroyed.'
-      }
+      end
     end
   end
 
+  def toggle_status
+    if @blog.published?
+      @blog.draft!
+    elsif @blog.draft?
+      @blog.published!
+    end
+    redirect_to blogs_url, notice: 'Post status has been updated'
+  end
+
   private
+
     def set_blog
       @blog = Blog.friendly.find(params[:id])
     end
