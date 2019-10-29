@@ -5,7 +5,7 @@ ruby '2.5.0'
 
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'coffee-rails', '~> 4.2'
-gem 'devise', '4.7.0'
+gem 'devise', '4.7.1'
 gem 'friendly_id', '5.2.5'
 gem 'jbuilder', '~> 2.5'
 gem 'pg', '>= 0.18', '< 2.0'
