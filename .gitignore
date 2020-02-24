@@ -31,3 +31,6 @@
 
 # Ignore .rubocop.yml
 .rubocop.yml
+
+# Ignore asdf configuration
+.tool-versions

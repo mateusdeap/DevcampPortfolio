@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0f47098-afbb-4a80-a4e3-f73300438bc4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DevcampPortfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DevcampPortfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/portfolio.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/portfolio.html.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +40,11 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cav" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../everydayrails-rspec-2017" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -182,11 +181,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="IRB console.Rails console: DevcampPortfolio" />
       <item itemvalue="Rails.Development: DevcampPortfolio" />
       <item itemvalue="Rails.Production: DevcampPortfolio" />
       <item itemvalue="Rake.spec: DevcampPortfolio" />
       <item itemvalue="Rake.test: DevcampPortfolio" />
-      <item itemvalue="IRB console.Rails console: DevcampPortfolio" />
     </list>
     <recent_temporary>
       <list>
@@ -214,6 +213,9 @@
       <workItem from="1568145261667" duration="3594000" />
       <workItem from="1568833679223" duration="2619000" />
       <workItem from="1568913975641" duration="6508000" />
+      <workItem from="1569370139948" duration="40000" />
+      <workItem from="1569377289017" duration="38000" />
+      <workItem from="1569971402910" duration="427000" />
     </task>
     <servers />
   </component>
